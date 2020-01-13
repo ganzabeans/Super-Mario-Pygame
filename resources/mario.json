@@ -1,0 +1,52 @@
+{
+    "small": {
+        "walking": {
+            "index": 0,
+            "sequence_sz" : 8,
+            "sequence": ["resources/images/s_mw1.png", "resources/images/s_mw5.png", "resources/images/s_mw1.png", "resources/images/s_mw2.png","resources/images/s_mw3.png","resources/images/s_mw4.png","resources/images/s_mw3.png","resources/images/s_mw2.png"]
+        },
+
+        "hit": "resources/images/sm_hit.png",
+        "crouch" : "resources/images/s_m_crouch.png",
+        "jump" : "resources/images/s_mjump.png",
+
+        "transition" : {
+            "sequence_sz" : 8,
+            "sequence": ["resources/images/s_mw2.png", "resources/images/mw2.png", "resources/images/s_mw2.png", "resources/images/mw2.png","resources/images/s_mw2.png", "resources/images/mw2.png","resources/images/s_mw2.png", "resources/images/mw2.png" ]
+        }
+    },
+
+    "big": {
+
+        "walking": {
+            "index": 0,
+            "sequence_sz" : 8,
+            "sequence": [ "resources/images/mw1.png", "resources/images/mw5.png", "resources/images/mw1.png", "resources/images/mw2.png","resources/images/mw3.png","resources/images/mw4.png","resources/images/mw3.png","resources/images/mw2.png"]
+        },
+
+        "hit": "resources/images/m_hit.png",
+        "crouch" : "resources/images/m_crouch.png",
+        "jump" : "resources/images/m_jump.png",
+        
+        "transition" : {
+            "sequence_sz" : 8,
+            "sequence": [ "resources/images/mw2.png", "resources/images/fm2.png", "resources/images/mw2.png", "resources/images/fm2.png", "resources/images/mw2.png", "resources/images/fm2.png", "resources/images/mw2.png", "resources/images/fm2.png" ]
+        }
+
+    },
+
+    "fire": {
+
+        "walking": {
+            "index": 0,
+            "sequence_sz" : 8,
+            "sequence": [ "resources/images/fm1.png", "resources/images/fm5.png", "resources/images/fm1.png", "resources/images/fm2.png","resources/images/fm3.png","resources/images/fm4.png","resources/images/fm3.png","resources/images/fm2.png"]
+        },
+
+        "hit": "resources/images/fm_hit.png",
+        "crouch" : "resources/images/fm_crouch.png",
+        "jump" : "resources/images/fjump.png"  
+
+    }
+ 
+}

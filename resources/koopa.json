@@ -1,0 +1,11 @@
+{
+    "frames": {
+        "walking": {
+            "index": 0,
+            "sequence_sz" : 4,
+            "sequence": [ "resources/images/kw1.png", "resources/images/kw2.png", "resources/images/kw3.png", "resources/images/kw2.png"]
+        }
+    },
+
+    "hit": false
+}

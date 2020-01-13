@@ -1,0 +1,100 @@
+{
+    "background" : {
+        "image" : "resources/images/bg_test.png",
+        "color" : [255, 255, 255]
+    },
+
+    "ground" : { 
+        "count" : 5,
+        "image" : [ "resources/images/title.png", "resources/images/ground_w1_1_a.png", "resources/images/ground_w1_1_b.png", "resources/images/ground_w1_1_c.png", "resources/images/ground_w1_1_d.png" ],
+        "position" : [[200, 50], [0, 600], [3406, 600], [4270, 600], [7439, 600]]
+    },
+
+
+    "coins" : {
+        "count" : 0
+    },
+
+    "brick": {
+        "image" : "resources/images/brick.png",
+        "count" : 30,
+        "position" : [[960, 408],[1054, 408], [1148, 408], [3698, 408], [3792, 408], [3840, 216], [3887, 216], [3934, 216], [3981, 216], [4028, 216], [4075, 216], [4122, 216], [4169, 216], [4368, 216], [4415, 216], [4462, 216], [4509, 408], [4801, 408], [4848, 408], [5663, 408], [5808, 216], [5855, 216], [5902, 216], [6144, 216], [6285, 216], [6191, 408], [6238, 408], [8063, 408], [8110, 408], [8204, 408]],
+        "item" : [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 0, 4 , 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    },
+    "block" : {
+        "image" : "resources/images/block.png",
+        "count" : 1,
+        "position" : [[3072, 360]]
+    },
+    "yellow" : {
+        "image" : "resources/images/yellow_block.png",
+        "count" : 13,
+        "position" : [[768, 408], [1007, 408], [1101, 408], [1054, 216], [3745, 408], [4509, 216], [5087, 408], [5232, 408], [5376, 408], [5232, 216], [6191, 216], [6238, 216], [8157, 408]],
+        "item" : [1, 2, 1, 1, 2, 1, 1, 1, 1, 2, 1, 1, 1]
+    },
+
+
+    "goomba" : {
+        "count" : 14,
+        "position" : [[1010, 500], [1940, 500], [2518, 500], [2596, 500], [3772, 284], [3908, 145], [4546, 500], [4628, 500], [5920, 500], [5992, 500], [6088, 500], [6160, 500], [8314, 500], [8380, 500]]
+    },
+
+    "koopa" : {
+        "count" : 1,
+        "position" : [[5075, 530]]
+    },
+
+    "pipe" : {
+        "count" : 6,
+        "position" : [[1344, 505], [1824, 456], [2209, 409], [2737, 409], [7826, 505], [8585, 505]],
+        "enter" : [0, 0, 0, 1, 2, 0]
+    },
+
+    "down_stairs" : {
+        "count" : 2,
+        "starting" : [[6770, 407], [7439, 407]],
+        "rows": [4, 4],
+        "columns": [4, 4]
+    },
+
+    "up_stairs" : {
+        "count" : 3,
+        "starting": [[6624, 407], [7296, 407], [9072, 215]],
+        "rows": [4, 4, 8],
+        "columns": [4, 5, 9]
+    },
+
+    "flag_pole" : [9500, 100],
+
+    "flag" : [9440, 140],
+
+    "castle" : {
+        "image" : "resources/images/castle.png",
+        "position" : [9698, 361]
+    },
+
+    "pillar": {
+        "count" : 0
+    },
+
+    "underground": {
+        "background" : "resources/images/world1_1under_bg.png",
+        "terrain": { 
+            "count" : 5,
+            "position" : [[274, 400], [0, 3], [912, 0], [274, 0], [0, 542]],
+            "image" : ["resources/images/w1_1_bottombrick.png", "resources/images/w1_1_sidebrick.png", "resources/images/w1_1_u_pipeup.png", "resources/images/w1_1_u_topbrick.png", "resources/images/w1_1_u_ground.png"]
+                    
+        },
+        "pipe": {
+            "position": [811, 417],
+            "image": "resources/images/w1_1_u_pipe.png"
+        },
+
+        "coin" : {
+            "count" : 19,
+            "position": [[290, 331], [337, 331], [384, 331], [431, 331], [478, 331], [525, 331], [572, 331],
+                [290, 233], [337, 233], [384, 233], [431, 233], [478, 233], [525, 233], [572, 233],
+                [337, 132], [384, 132], [431, 132], [478, 132], [525, 132]]
+        }
+    }
+}
